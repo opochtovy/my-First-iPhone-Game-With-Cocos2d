@@ -1,0 +1,12 @@
+my-First-iPhone-Game-With-Cocos2d
+=================================
+
+API illustrates the simple iPhone game SeaFight with ship that can shoot, enemy boats (2 types) and sound effects.
+
+- Class Enemy allows to make different types of enemy ships of varying difficulty (weak and fast boats or strong and slow submarines).
+
+- Classes Level and LevelManager implement multiple levels into the game. In class Level we keep track all of the information that differentiates one level from another (the level number, how many seconds in between spawning enemies and the background image name). Class LevelManager keeps track of all of the levels as well as which level we are currently on.
+
+- There are 3 sound effects.
+
+- And there are 3 layers that provide different scenes for our game.
